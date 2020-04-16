@@ -64,4 +64,24 @@ h1{
 
 .btn{
     border: 1px solid yellow;
+    padding: 10px 30px;
+    color: yellow;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.button-awesome{
+    margin-top: 20px;
+}
+
+.btn-half:hover{
+    background-color: yellow;
+    color: #036f06;
+}
+
+.btn-full:hover{
+    background-color: yellow;
+    color: #036f06;
+    transition: all 0.3s ease-in;
 }
