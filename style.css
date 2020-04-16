@@ -116,5 +116,9 @@ h3:after{
 .features i{
     font-size: 50px;
     color: #1a4d82;
-    margin-left: 15%;
+    margin-left: 40%;
+}
+
+.features h4{
+    margin-left: 40px;
 }
