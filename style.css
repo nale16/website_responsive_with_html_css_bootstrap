@@ -63,12 +63,13 @@ h1{
 }
 
 .button{
-    border: 1px solid yellow;
+    border: 1px solid #1a4d82;
     padding: 10px 30px;
-    color: #a2d0ff;
+    color: #f8f9fa;
     text-decoration: none;
     border-radius: 12px;
     margin-right: 15px;
+    margin-left: 85px;
 }
 
 .button-awesome{
@@ -76,14 +77,15 @@ h1{
 }
 
 .btn-half:hover{
-    background-color: yellow;
+    background-color: #1a4d82;
     text-decoration: none;
-    color: #036f06;
+    color: #f8f9fa;
+    transition: all 0.3s ease-in;
 }
 
 .btn-full:hover{
-    background-color: yellow;
-    color: #036f06;
+    background-color: #1a4d82;
+    color: #f8f9fa;
     text-decoration: none;
     transition: all 0.3s ease-in;
 }
@@ -121,4 +123,13 @@ h3:after{
 
 .features h4{
     margin-left: 40px;
+}
+
+.img{
+    -webkit-transition: -webkit-transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
+}
+.img:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
