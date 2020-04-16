@@ -14,14 +14,14 @@ body{
 
 .hero{
     position: absolute;
-    width: 500px;
-    top: 15%;
+    width: 600px;
+    top: 40%;
     left: 55%;
     transform: translate(-50%, -50%);
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background3.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -62,10 +62,10 @@ h1{
     margin-top: 30px;
 }
 
-.btn{
+.button{
     border: 1px solid yellow;
     padding: 10px 30px;
-    color: yellow;
+    color: #a2d0ff;
     text-decoration: none;
     border-radius: 12px;
     margin-right: 15px;
@@ -77,11 +77,33 @@ h1{
 
 .btn-half:hover{
     background-color: yellow;
+    text-decoration: none;
     color: #036f06;
 }
 
 .btn-full:hover{
     background-color: yellow;
     color: #036f06;
+    text-decoration: none;
     transition: all 0.3s ease-in;
+}
+
+.copy{
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: #a2d0ff;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3{
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
