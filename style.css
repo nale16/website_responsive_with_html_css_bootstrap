@@ -1,7 +1,7 @@
-/* {
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,10 +9,9 @@ body{
 
 .hero{
     position: absolute;
-    width: 1140px;
+    width: 500px;
     top: 15%;
-    left: 75%;
-    color: white;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
 
@@ -21,4 +20,13 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+h1{
+    color: white;
+}
+
+.main-nav{
+    list-style: none;
+    float: right;
 }
